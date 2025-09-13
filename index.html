@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="en">
+<script>
+  if (location.hostname === "www.reminiq.com") {
+    location.replace("https://reminiq.com" + location.pathname + location.search + location.hash);
+  }
+</script>
 <head>
   <link rel="canonical" href="https://reminiq.com/">
   <meta property="og:url" content="https://reminiq.com/">
